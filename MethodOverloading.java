@@ -7,10 +7,10 @@ public static void(String[] args)
 }
 public static int myMethod(int x, int y, int z)
 {
-  System.out.printf("%d%d%d, x is , y is , z is ");
+  System.out.printf("%d%d%d, values are ", x, y, z);
 }
 public static double myMethod(double x, double y, double z);
 {
-  System.out.printf("%d%d%d, x is , y is , z is ");
+  System.out.printf("%f%f%f values are ", x, y, z);
 }
 }
